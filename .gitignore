@@ -29,6 +29,20 @@ local.properties
 .buildpath
 
 
+#Mod Specific
+paulscode/
+net/
+ibxm/
+cpw/
+Start.java
+mcp.png
+forge_logo.png
+forge_at.cfg
+fmlversion.properties
+fml_marker.cfg
+fml_at.cfg
+
+
 #################
 ## Visual Studio
 #################
