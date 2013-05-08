@@ -57,10 +57,10 @@ public class NeoCraft
     @Init
     public void load(FMLInitializationEvent event)
     {
-    	ingotChromium = new IngotChromium(config.get(Configuration.CATEGORY_ITEM, "ingotChromium", 5501).getInt());
-    	ingotSteel = new IngotSteel(config.get(Configuration.CATEGORY_ITEM, "ingotSteel", 5502).getInt());
-    	ingotStainlessSteel = new IngotStainlessSteel(config.get(Configuration.CATEGORY_ITEM, "ingotStainlessSteel", 5503).getInt());
-    	circuitBoard = new CircuitBoard(config.get(Configuration.CATEGORY_ITEM, "circuitBoard", 5504).getInt());
+    	ingotChromium = new ItemBase(config.get(Configuration.CATEGORY_ITEM, "ingotChromium", 5501).getInt(),"ingotChromium");
+    	ingotSteel = new ItemBase(config.get(Configuration.CATEGORY_ITEM, "ingotSteel", 5502).getInt(),"ingotSteel");
+    	ingotStainlessSteel = new ItemBase(config.get(Configuration.CATEGORY_ITEM, "ingotStainlessSteel", 5503).getInt(),"ingotStainlessSteel");
+    	circuitBoard = new ItemBase(config.get(Configuration.CATEGORY_ITEM, "circuitBoard", 5504).getInt(),"circuitBoard");
     	
     	LanguageRegistry.addName(ingotChromium, "Chromium Ingot");
     	LanguageRegistry.addName(ingotSteel, "Steel Ingot");
